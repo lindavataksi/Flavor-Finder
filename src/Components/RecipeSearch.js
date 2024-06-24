@@ -51,7 +51,7 @@ function Form() {
         <input type="submit" value="Search" />
       </form>
       <div className="recipe-search-cards">
-        <section className="cards-list">
+        <section className="cards-list-search">
           {recipes &&
             recipes.map((recipe) => {
               return (

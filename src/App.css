@@ -64,6 +64,15 @@ nav {
   border-radius: 10px;
 }
 
+.cards-list-search {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  gap: 20px;
+  padding-top: 20px;
+  overflow-y: auto; 
+  max-height: 600px; 
+}
+
 .cards-list {
   display: flex;
   flex-wrap: nowrap;
