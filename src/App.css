@@ -30,6 +30,7 @@ section {
 
 nav {
   box-shadow: 0px 2.98256px 7.4564px #d5f5e3;
+  margin-bottom: 20px;
 }
 
 .nav--logo {
@@ -353,7 +354,6 @@ section::-webkit-scrollbar-thumb:hover {
   flex-direction: column;
   align-items: center;
   max-width: 90%;
-  margin: 0 auto;
 }
 
 .randomizer-top p {
