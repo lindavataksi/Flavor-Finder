@@ -4,6 +4,10 @@ const CuisineButtons = ({ setCuisineType }) => {
   return (
     <div>
       <p className="text-font">Try food across the globe!</p>
+      <p className="website-blurb">
+        Click the button to discover recipes from around the world, each
+        offering a taste of diverse regional cuisines.
+      </p>
       <div className="cuisineType--buttons">
         <button
           onClick={() => {

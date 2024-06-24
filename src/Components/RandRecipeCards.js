@@ -38,7 +38,7 @@ const RandRecipeCards = () => {
 
   return (
     <div>
-      <section className="hero">
+      <div>
         <p className="text-font">
           Simple and tasty recipes
           <span>
@@ -50,7 +50,11 @@ const RandRecipeCards = () => {
             </button>
           </span>
         </p>
-      </section>
+      </div>
+      <p className="website-blurb">
+            Explore a world of flavors with just a click – uncover new recipes
+            that will tantalize your taste buds and elevate your cooking game.
+          </p>
       {loading && <p>Loading...</p>}
       {error && <p>{error}</p>}
       <div>

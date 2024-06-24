@@ -33,7 +33,7 @@ function Form() {
 
   React.useEffect(() => {
     // Set the default cuisine to 'world' and fetch recipes
-    setQuery("apple");
+    setQuery("Apple");
   }, []);
 
   return (

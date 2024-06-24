@@ -20,6 +20,10 @@ section {
   padding-top: 20px;
 }
 
+.center {
+  justify-content: center;
+}
+
 .navigation {
   padding: 0px;
   height: fit-content;
@@ -154,27 +158,6 @@ section::-webkit-scrollbar-thumb:hover {
   font-weight: bold;
 }
 
-.card--fav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 6px;
-  background-color: transparent;
-  border: none;
-  max-width: 50px;
-}
-
-.card--fav--icon {
-  width: 100%; /* Make the heart icon fill the entire button */
-  height: 100%;
-  border-radius: 2px;
-}
-
-.card--icon {
-  height: 25px;
-  margin: 0;
-  padding: 5px;
-}
 
 .home {
   padding-left: 40px;
@@ -229,7 +212,7 @@ section::-webkit-scrollbar-thumb:hover {
   border-radius: 15px;
 }
 .cuisineType--buttons > button:hover {
-  background-color: orange;
+  background-color: #C19A6B;
 }
 
 .cuisineType--buttons > button img {
@@ -645,4 +628,11 @@ section::-webkit-scrollbar-thumb:hover {
   font-size: 20px;
   font-weight: bold;
   padding-top: 10px;
+}
+
+.website-blurb {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 16px;
+  color: #1e8449;
 }

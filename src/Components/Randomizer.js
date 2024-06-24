@@ -27,22 +27,22 @@ const Randomizer = () => {
   return (
     <>
       <div className="randomizer-top">
-        <div>
+        {/* <div>
           <p style={{ fontStyle: "italic", textAlign: "center" }}>
             Our Random Recipe Generator is the perfect solution for culinary
             inspiration blocks! Click the "Generate Meal" button to discover
             diverse and delicious recipes, eliminating the guesswork in meal
             planning.
           </p>
-        </div>
-        <div>
+        </div> */}
+        <div className ="center">
           <button onClick={() => fetchFood()} className="btn">
-            Generate Meal
+          Generate a randomized meal to overcome creativity blocks
           </button>
         </div>
+        {loading && <p>Loading...</p>}
+        {error && <p>{error}</p>}
       </div>
-      {loading && <p>Loading...</p>}
-      {error && <p>{error}</p>}
       <section>
         {food.map((f) => (
           <MealCard key={f.idMeal} meal={f} />
