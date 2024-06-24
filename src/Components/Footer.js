@@ -9,9 +9,9 @@ export default function Footer() {
           <span> About the company</span> Discover culinary magic on our
           website! Explore a world of flavors with a landing page showcasing a
           random set of recipes or filter by cuisine. Embrace spontaneity with
-          the randomizer tab, find recipes based on your ingredients in the
-          search tab, and curate your favorites for easy access. Elevate your
-          cooking experience - start your flavorful journey today!
+          the randomizer tab and find recipes based on your ingredients in the
+          search tab. Elevate your cooking experience - start your flavorful
+          journey today!
         </p>
       </div>
       <div className="footer-center col-md-4 col-sm-6">
@@ -47,8 +47,6 @@ export default function Footer() {
           <CustomLink to="/">Home</CustomLink>|
           <CustomLink to="/Randomizer">Randomizer</CustomLink>|
           <CustomLink to="/RecipeSearch">RecipeSearch</CustomLink>|
-          <CustomLink to="/About">About</CustomLink>
-          {/* <CustomLink to="/About">About</CustomLink> */}
         </div>
       </div>
     </footer>

@@ -103,7 +103,12 @@ const MealCard = ({ meal }) => {
             <span>{strArea}</span>
           </div>
           <button className="card-btn-rand">
-            <a className="card-btn-link" href={strSource} target="_blank" rel="noopener noreferrer">
+            <a
+              className="card-btn-link"
+              href={strSource}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Visit Source
             </a>
           </button>

@@ -43,7 +43,10 @@ const RandRecipeCards = () => {
           Simple and tasty recipes
           <span>
             <button onClick={() => fetchFood()} className="refresh-btn">
-              <img src="https://icons.veryicon.com/png/o/miscellaneous/ios-apple-icon/ios-refresh-9.png" alt="refresh" />
+              <img
+                src="https://icons.veryicon.com/png/o/miscellaneous/ios-apple-icon/ios-refresh-9.png"
+                alt="refresh"
+              />
             </button>
           </span>
         </p>
