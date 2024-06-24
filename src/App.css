@@ -3,7 +3,7 @@
 }
 
 .App {
-  padding: 40px 40px;
+  padding: 20px 20px;
 }
 
 body {
@@ -20,70 +20,25 @@ section {
   padding-top: 20px;
 }
 
-nav {
-  height: 70px;
-  display: flex;
+.navigation {
+  padding: 0px;
+  height: fit-content;
+  display: inline;
   align-items: center;
-  box-shadow: 0px 2.98256px 7.4564px #d5f5e3;
-  padding: 20px;
+  justify-content:space-between;
+
 }
 
+nav {
+  box-shadow: 0px 2.98256px 7.4564px #d5f5e3;
+
+} 
+
 .nav--logo {
-  height: 100%;
+  height: 30px;
   margin-right: 6px;
 }
 
-.nav--title {
-  margin-left: 10px;
-  color: #1e8449;
-}
-
-.nav--options {
-  margin-left: auto;
-  overflow: hidden;
-  padding-inline-end: 10px;
-}
-
-.nav--options button {
-  font-family: "Poppins", sans-serif;
-  background-color: white;
-  font-size: 16px;
-  border: none;
-  border-right: 2px solid #c0c0c0;
-  padding-right: 15px;
-}
-
-.nav--options a {
-  text-decoration: none;
-  background-color: transparent;
-  color: black;
-  height: 100%;
-  color: inherit;
-  transition: color 0.3s;
-}
-
-.nav--options button:hover a {
-  color: green !important;
-  font-weight: bold;
-}
-
-/* Responsive styles for smaller screens */
-@media screen and (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .nav--options {
-    margin-top: 10px; /* Adjust the spacing between items */
-  }
-
-  .nav--options button {
-    border-right: none;
-    border-bottom: 2px solid #c0c0c0;
-    padding: 10px 15px; /* Adjust the padding for better touch interaction */
-  }
-}
 
 .hero {
   display: flex;
@@ -115,7 +70,6 @@ nav {
   gap: 20px;
   overflow-x: auto;
   padding-top: 20px;
-  /* padding: 20px 50px; */
 }
 
 .cards-lists {
@@ -123,7 +77,6 @@ nav {
   flex-wrap: nowrap;
   gap: 20px;
   overflow-x: auto;
-  /* padding: 20px 50px; */
 }
 
 section::-webkit-scrollbar {
