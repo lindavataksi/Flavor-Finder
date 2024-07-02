@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Flavor-Finder/static/css/main.2594d094.css",
-    "main.js": "/Flavor-Finder/static/js/main.5a017fa9.js",
+    "main.js": "/Flavor-Finder/static/js/main.b84f7e0e.js",
     "static/js/488.06a7876e.chunk.js": "/Flavor-Finder/static/js/488.06a7876e.chunk.js",
     "static/media/chef.png": "/Flavor-Finder/static/media/chef.ab82edc946430c9fdba9.png",
     "index.html": "/Flavor-Finder/index.html",
     "main.2594d094.css.map": "/Flavor-Finder/static/css/main.2594d094.css.map",
-    "main.5a017fa9.js.map": "/Flavor-Finder/static/js/main.5a017fa9.js.map",
+    "main.b84f7e0e.js.map": "/Flavor-Finder/static/js/main.b84f7e0e.js.map",
     "488.06a7876e.chunk.js.map": "/Flavor-Finder/static/js/488.06a7876e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2594d094.css",
-    "static/js/main.5a017fa9.js"
+    "static/js/main.b84f7e0e.js"
   ]
 }
