@@ -1,4 +1,5 @@
 import "./App.css";
+import React from 'react';
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import RecipeSearch from "./Components/RecipeSearch";
@@ -12,6 +13,7 @@ export default function App() {
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/Flavor-Finder" element={<Home />} />
           <Route path="/Randomizer" element={<Randomizer />} />
           <Route path="/RecipeSearch" element={<RecipeSearch />} />
         </Routes>
@@ -19,3 +21,5 @@ export default function App() {
     </div>
   );
 }
+
+

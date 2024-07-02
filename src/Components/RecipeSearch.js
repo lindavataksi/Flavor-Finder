@@ -38,7 +38,13 @@ function Form() {
 
   return (
     <div className="app">
-      <h1 onClick={getRecipeInfo}>Recipe Search🍔</h1>
+      <h1 onClick={getRecipeInfo}>
+        Recipe Search
+        <span role="img" aria-label="Burger">
+          🍔
+        </span>
+      </h1>
+
       <form onSubmit={onSubmit}>
         <input
           className="app__input"
