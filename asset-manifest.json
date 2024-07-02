@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.2594d094.css",
-    "main.js": "/static/js/main.ebbe5355.js",
-    "static/js/488.06a7876e.chunk.js": "/static/js/488.06a7876e.chunk.js",
-    "static/media/chef.png": "/static/media/chef.ab82edc946430c9fdba9.png",
-    "index.html": "/index.html",
-    "main.2594d094.css.map": "/static/css/main.2594d094.css.map",
-    "main.ebbe5355.js.map": "/static/js/main.ebbe5355.js.map",
-    "488.06a7876e.chunk.js.map": "/static/js/488.06a7876e.chunk.js.map"
+    "main.css": "/Flavor-Finder/static/css/main.2594d094.css",
+    "main.js": "/Flavor-Finder/static/js/main.5a017fa9.js",
+    "static/js/488.06a7876e.chunk.js": "/Flavor-Finder/static/js/488.06a7876e.chunk.js",
+    "static/media/chef.png": "/Flavor-Finder/static/media/chef.ab82edc946430c9fdba9.png",
+    "index.html": "/Flavor-Finder/index.html",
+    "main.2594d094.css.map": "/Flavor-Finder/static/css/main.2594d094.css.map",
+    "main.5a017fa9.js.map": "/Flavor-Finder/static/js/main.5a017fa9.js.map",
+    "488.06a7876e.chunk.js.map": "/Flavor-Finder/static/js/488.06a7876e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2594d094.css",
-    "static/js/main.ebbe5355.js"
+    "static/js/main.5a017fa9.js"
   ]
 }
