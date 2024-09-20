@@ -21,7 +21,6 @@ You can check out the live version of the app [here](https://lindavataksi.github
 ## Features
 - **Search Recipes:** Find recipes by ingredients, cuisine, or dish type.
 - **Detailed Instructions:** Step-by-step cooking instructions with ingredient lists.
-- **Save Favorites:** Save your favorite recipes for easy access later.
 - **Responsive Design:** Optimized for both desktop and mobile use.
 
 ## Technologies Used
@@ -81,5 +80,5 @@ We welcome contributions from the community! To contribute:
 For any inquiries or feedback, please feel free to reach out:
 
 - **LinkedIn:** [Linda Vataksi](https://www.linkedin.com/in/lindavataksi)
-- **Email:** lindavataksi3@example.com
+- **Email:** lindavataksi3@gmail.com
 
